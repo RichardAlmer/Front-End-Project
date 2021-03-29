@@ -1,0 +1,23 @@
+#contactC{
+    margin: 0 4em;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+p{
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+#sendAlert{
+    text-align: center;
+}
+
+#mesBtn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
