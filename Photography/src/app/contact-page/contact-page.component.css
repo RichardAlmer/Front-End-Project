@@ -21,3 +21,7 @@ p{
     justify-content: center;
     padding-bottom: 2em;
 }
+
+label{
+    font-family: 'Montserrat', sans-serif;
+}
