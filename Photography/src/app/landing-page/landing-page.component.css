@@ -1,0 +1,41 @@
+.landingWrapper {
+    background-image: url("/assets/img/hero/DSC_7036.jpg");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sideWrapper {
+    list-style: none;
+    display: flex;
+    align-self: flex-end;
+    flex-direction: column;
+    /* align-items: right; */
+    justify-content: flex-end;
+
+}
+
+.social{
+    display: flex;
+    justify-content: flex-end;
+} 
+
+h1, p {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+ul {
+    display: flex;
+    align-self: flex-end;
+    list-style-type: none;
+    flex-direction: column;
+}
