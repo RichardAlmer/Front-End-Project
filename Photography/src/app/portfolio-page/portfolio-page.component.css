@@ -1,0 +1,8 @@
+.own-btn {
+  justify-content: space-evenly;
+  margin-bottom: 2em;
+}
+
+.own-btn button {
+  line-height: 2em;
+}
