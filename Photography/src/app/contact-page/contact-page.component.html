@@ -1,4 +1,5 @@
-
+<h1>Contect</h1>
+<p>If you are interested in an appointment or would like to obtain additional information, simply write us a message.<br>We will answer you as soon as possible.</p>
 <form class="row g-3" [formGroup]="contact" (ngSubmit)="onSubmit()">
     <div class="col-md-6">
         <label for="firstName" class="form-label">First Name</label>
@@ -8,13 +9,14 @@
         <label for="lastName" class="form-label">Last Name</label>
         <input type="text" class="form-control" id="lastName" placeholder="Last Name" formControlName="lastName">
     </div>
-    <div class="col">
+    <div class="col-md-12">
         <label for="email" class="form-label">Email</label>
         <input type="email" class="form-control" id="email" placeholder="TravelGavel@email.com" formControlName="email">
     </div>
-    <div class="col-md-6">
+    <div class="col-md-12">
         <label for="massage" class="form-label">Massage</label>
-        <input type="text" class="form-control" id="massage" placeholder="Massage" formControlName="massage">
+        <textarea class="form-control" name="massage" id="massage" formControlName="massage" rows="4" 
+        placeholder="Your Massage should be written here."></textarea>
     </div>
     <div class="col-md-4">
         <label for="date" class="form-label">Desired Date</label>
