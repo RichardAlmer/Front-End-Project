@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
 import { CustomersPageComponent } from './customers-page/customers-page.component';
 import { TestimonialPageComponent } from './testimonial-page/testimonial-page.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { TestimonialPageComponent } from './testimonial-page/testimonial-page.co
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
