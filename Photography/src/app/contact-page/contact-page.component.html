@@ -1,1 +1,26 @@
-<p>contact-page works!</p>
+
+<form class="row g-3" [formGroup]="contact" (ngSubmit)="onSubmit()">
+    <div class="col-md-6">
+        <label for="firstName" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="firstName" placeholder="First Name" formControlName="firstName">
+    </div>
+    <div class="col-md-6">
+        <label for="lastName" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="lastName" placeholder="Last Name" formControlName="lastName">
+    </div>
+    <div class="col">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="TravelGavel@email.com" formControlName="email">
+    </div>
+    <div class="col-md-6">
+        <label for="massage" class="form-label">Massage</label>
+        <input type="text" class="form-control" id="massage" placeholder="Massage" formControlName="massage">
+    </div>
+    <div class="col-md-4">
+        <label for="date" class="form-label">Desired Date</label>
+        <input type="text" class="form-control" id="date" placeholder="Desired Date" formControlName="date">
+    </div>
+    <div id="checkBtn">
+        <button type="submit" class="btn btn-primary">Send</button>
+    </div>
+</form>
