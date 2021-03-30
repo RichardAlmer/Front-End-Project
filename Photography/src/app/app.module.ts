@@ -15,6 +15,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { HeaderComponent } from './header/header.component';
+import { DocumentationComponent } from './documentation/documentation.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { HeaderComponent } from './header/header.component';
     TestimonialPageComponent,
     PrivacyPolicyComponent,
     ImprintComponent,
-    HeaderComponent
+    HeaderComponent,
+    DocumentationComponent
 
   ],
   imports: [
