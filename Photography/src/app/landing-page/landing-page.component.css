@@ -1,9 +1,12 @@
+/*create sidebar*/
+
 .landingWrapper {
     background-image: url("/assets/img/hero/DSC_7036.jpg");
     height: 100vh;
     display: flex;
     flex-direction: column;
-
+    color: whitesmoke;
+    text-decoration: none;
 
 }
 
@@ -17,7 +20,6 @@
     display: flex;
     align-self: flex-end;
     flex-direction: column;
-    /* align-items: right; */
     justify-content: flex-end;
 
 }
@@ -25,6 +27,9 @@
 .social{
     display: flex;
     justify-content: flex-end;
+    align-items: flex-start;
+    text-decoration: none;
+    color: whitesmoke;
 } 
 
 h1, p {
@@ -38,4 +43,15 @@ ul {
     align-self: flex-end;
     list-style-type: none;
     flex-direction: column;
+    cursor: pointer;
+}
+
+/*hover nav-links*/
+
+li:hover {
+    color: darkslategrey;
+}
+
+.social:hover {
+    color: whitesmoke;
 }
