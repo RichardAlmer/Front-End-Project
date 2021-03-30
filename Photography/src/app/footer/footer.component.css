@@ -20,10 +20,6 @@ img{
     height: 1.4em;
 }
 
-a{
-    padding: 0 0.5em;
-}
-
 #brands{
     grid-area: brands;
     justify-self: center;
@@ -44,8 +40,13 @@ a{
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.7em;
+    padding: 0 0.5em;
 }
 
 a:hover{
     color: gray;
+}
+
+.footerLink{
+    font-size: 1em;
 }

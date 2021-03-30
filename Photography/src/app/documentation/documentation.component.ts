@@ -3,11 +3,11 @@ import { HeaderService } from '../header.service';
 import { NavbarService } from '../navbar.service';
 
 @Component({
-  selector: 'app-portfolio-page',
-  templateUrl: './portfolio-page.component.html',
-  styleUrls: ['./portfolio-page.component.css']
+  selector: 'app-documentation',
+  templateUrl: './documentation.component.html',
+  styleUrls: ['./documentation.component.css']
 })
-export class PortfolioPageComponent implements OnInit {
+export class DocumentationComponent implements OnInit {
 
   constructor(public nav: NavbarService, public head: HeaderService) { }
 

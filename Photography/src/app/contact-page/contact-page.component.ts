@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { HeaderService } from '../header.service';
+import { NavbarService } from '../navbar.service';
 
 @Component({
   selector: 'app-contact-page',
@@ -15,9 +17,11 @@ export class ContactPageComponent implements OnInit {
     date: new FormControl("", Validators.required)
   })
   
-  constructor() { }
+  constructor(public nav: NavbarService, public head: HeaderService) { }
 
   ngOnInit(): void {
+    this.nav.show();
+    this.head.show();
   }
 
   onSubmit(){
