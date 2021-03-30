@@ -12,6 +12,7 @@ import { ContactPageComponent } from './contact-page/contact-page.component';
 import { CustomersPageComponent } from './customers-page/customers-page.component';
 import { TestimonialPageComponent } from './testimonial-page/testimonial-page.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     FooterComponent,
     ContactPageComponent,
     CustomersPageComponent,
-    TestimonialPageComponent
+    TestimonialPageComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
