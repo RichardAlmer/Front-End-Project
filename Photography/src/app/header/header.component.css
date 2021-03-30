@@ -1,4 +1,6 @@
 a {
     text-decoration: none;
     color: black;
+    text-shadow: 1.5px 1.5px 3px rgba(150, 150, 150, 1);
 }
+

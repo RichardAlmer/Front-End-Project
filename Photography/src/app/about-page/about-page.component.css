@@ -4,7 +4,7 @@
     background-size: cover;
 
     /* height: 100vh; */
-    color: whitesmoke;
+    color: lightgray;
     
 }
 
@@ -17,9 +17,14 @@
 }
 
 h1, h5, p {
-    opacity: 0.90;
+    /* opacity: 0.90; */
+    text-shadow: 2px 2px 4px rgba(150, 150, 150, 1);
 }
 
-h5, p {
+h5 {
     font-size: 0.85em;
+}
+
+p {
+    font-size: 0.8em;
 }

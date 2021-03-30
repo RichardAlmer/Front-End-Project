@@ -14,7 +14,7 @@
 .logo {
     display: flex;
     justify-content: flex-end;
-}
+    }
 
 .sideWrapper {
     list-style: none;
@@ -22,6 +22,7 @@
     align-self: flex-end;
     flex-direction: column;
     justify-content: flex-end;
+     text-shadow: 1.5px 1.5px 3px rgba(150, 150, 150, 1);
   }
 
 .social{
