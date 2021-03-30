@@ -3,16 +3,17 @@
     background-image: url("/assets/img/hero/DSC_7052.jpg");
     background-size: cover;
 
-    height: 100vh;
+    /* height: 100vh; */
     color: whitesmoke;
     
 }
 
 .aboutInner {
-    padding-top: 2vw;
-    padding-left: 30vw;
-    padding-right: 5vw;
-    
+    padding: 2vw 5vw 2vw 30vw;
+}
+
+.quote {
+    margin-bottom: 3vw;
 }
 
 h1, h5, p {
