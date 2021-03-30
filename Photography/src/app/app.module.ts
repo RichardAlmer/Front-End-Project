@@ -12,7 +12,9 @@ import { ContactPageComponent } from './contact-page/contact-page.component';
 import { CustomersPageComponent } from './customers-page/customers-page.component';
 import { TestimonialPageComponent } from './testimonial-page/testimonial-page.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { DocumentationComponent } from './documentation/documentation.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { ImprintComponent } from './imprint/imprint.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { DocumentationComponent } from './documentation/documentation.component'
     ContactPageComponent,
     CustomersPageComponent,
     TestimonialPageComponent,
-    DocumentationComponent
+    PrivacyPolicyComponent,
+    ImprintComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
