@@ -1,0 +1,24 @@
+
+.aboutWrapper {
+    background-image: url("/assets/img/hero/DSC_7052.jpg");
+    background-size: cover;
+
+    height: 100vh;
+    color: whitesmoke;
+    
+}
+
+.aboutInner {
+    padding-top: 2vw;
+    padding-left: 30vw;
+    padding-right: 5vw;
+    
+}
+
+h1, h5, p {
+    opacity: 0.90;
+}
+
+h5, p {
+    font-size: 0.85em;
+}
