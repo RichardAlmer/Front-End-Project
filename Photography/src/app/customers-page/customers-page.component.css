@@ -13,5 +13,12 @@
    .checked {
        color: orange;
        padding: 10px;
-       font-size: 30px;
+      font-size: 20px;
      }
+    
+img{
+   border-radius: 10%;
+}
+.rounded-circle{
+   width: 200px;
+}   
