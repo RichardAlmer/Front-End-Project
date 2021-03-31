@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HeaderService } from '../header.service';
+import { NavbarService } from '../navbar.service';
 
 @Component({
   selector: 'app-offer-page',
@@ -7,9 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OfferPageComponent implements OnInit {
 
-  constructor() { }
+  constructor(public nav: NavbarService, public head: HeaderService) { }
 
   ngOnInit(): void {
+    this.nav.show();
+    this.head.show();
   }
 
 }
