@@ -9,11 +9,15 @@
 }
 
 .aboutInner {
-    padding: 2vw 5vw 2vw 30vw;
+    padding: 2vw 8vw 3vw 30vw;
 }
 
 .quote {
     margin-bottom: 3vw;
+}
+
+.people {
+    margin-top: 7vw;
 }
 
 h1, h5, p {
