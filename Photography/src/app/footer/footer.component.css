@@ -1,7 +1,6 @@
 #footer{
     background-color: black;
     color: white;
-    width: 100vw;
     height: 6em;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
