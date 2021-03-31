@@ -3,22 +3,31 @@
     background-image: url("/assets/img/hero/DSC_7052.jpg");
     background-size: cover;
 
-    height: 100vh;
-    color: whitesmoke;
+    /* height: 100vh; */
+    color: lightgray;
     
 }
 
 .aboutInner {
-    padding-top: 2vw;
-    padding-left: 30vw;
-    padding-right: 5vw;
-    
+    padding: 2vw 8vw 3vw 30vw;
+}
+
+.quote {
+    margin-bottom: 3vw;
+}
+
+.people {
+    margin-top: 7vw;
 }
 
 h1, h5, p {
-    opacity: 0.90;
+    text-shadow: 2px 2px 4px black;
 }
 
-h5, p {
+h5 {
     font-size: 0.85em;
+}
+
+p {
+    font-size: 0.8em;
 }

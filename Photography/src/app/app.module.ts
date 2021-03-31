@@ -16,7 +16,7 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
 import { ImprintComponent } from './imprint/imprint.component';
 import { HeaderComponent } from './header/header.component';
 import { DocumentationComponent } from './documentation/documentation.component';
-
+import { WebcamModule } from "ngx-webcam";
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +37,8 @@ import { DocumentationComponent } from './documentation/documentation.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    WebcamModule
   ],
   providers: [],
   bootstrap: [AppComponent]
