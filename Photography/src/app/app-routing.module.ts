@@ -5,7 +5,6 @@ import { AboutPageComponent} from './about-page/about-page.component';
 import { ContactPageComponent} from './contact-page/contact-page.component';
 import { CustomersPageComponent} from './customers-page/customers-page.component';
 import { PortfolioPageComponent} from './portfolio-page/portfolio-page.component';
-import { TestimonialPageComponent} from './testimonial-page/testimonial-page.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { DocumentationComponent } from './documentation/documentation.component';
@@ -30,9 +29,6 @@ const routes: Routes = [
   },
   {
     path:"portfolio",component: PortfolioPageComponent
-  },
-  {
-    path:"testimonial",component: TestimonialPageComponent
   },
   {
     path:"privacyPolicy", component: PrivacyPolicyComponent
