@@ -17,6 +17,7 @@ import { ImprintComponent } from './imprint/imprint.component';
 import { HeaderComponent } from './header/header.component';
 import { DocumentationComponent } from './documentation/documentation.component';
 import { WebcamModule } from "ngx-webcam";
+import { OfferPageComponent } from './offer-page/offer-page.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +32,8 @@ import { WebcamModule } from "ngx-webcam";
     PrivacyPolicyComponent,
     ImprintComponent,
     HeaderComponent,
-    DocumentationComponent
+    DocumentationComponent,
+    OfferPageComponent
 
   ],
   imports: [

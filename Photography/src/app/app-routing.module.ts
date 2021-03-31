@@ -9,6 +9,8 @@ import { TestimonialPageComponent} from './testimonial-page/testimonial-page.com
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { DocumentationComponent } from './documentation/documentation.component';
+import { OfferPageComponent } from './offer-page/offer-page.component';
+
 
 
 
@@ -40,7 +42,11 @@ const routes: Routes = [
   },
   {
     path: "documentation", component: DocumentationComponent
-  }
+  },
+  {
+    path: "offers", component: OfferPageComponent
+  },
+  
 ];
 
 @NgModule({
