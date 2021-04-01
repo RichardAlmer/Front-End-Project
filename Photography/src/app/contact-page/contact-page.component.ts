@@ -13,7 +13,7 @@ export class ContactPageComponent implements OnInit {
     firstName: new FormControl("", Validators.required),
     lastName:new FormControl("", Validators.required),
     email: new FormControl("", Validators.required),
-    massage: new FormControl("", Validators.required),
+    message: new FormControl("", Validators.required),
     date: new FormControl("", Validators.required)
   })
   
