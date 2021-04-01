@@ -1,0 +1,5 @@
+What we have chosen:
+-   Angular
+-   CSS
+-   naming: Camel case
+-   Bootstrap
