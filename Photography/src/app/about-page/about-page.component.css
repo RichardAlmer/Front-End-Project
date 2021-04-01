@@ -9,7 +9,7 @@
 }
 
 .aboutInner {
-    padding: 2vw 8vw 3vw 30vw;
+    padding: 2vw 10vw 3vw 30vw;
 }
 
 .quote {
@@ -31,3 +31,12 @@ h5 {
 p {
     font-size: 0.8em;
 }
+
+@media screen and (max-width: 570px) {
+    .aboutInner {
+        padding-top: 5vw;
+        padding-left: 8vw;
+       
+        
+    }
+  }
