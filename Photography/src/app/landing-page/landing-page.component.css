@@ -1,7 +1,7 @@
 /*create sidebar*/
 
 .landingWrapper {
-    background-image: url("/assets/img/hero/DSC_7036.jpg");
+    background-image: url("../../assets/img/hero/DSC_7036.jpg");
     background-size: cover;
 
     height: 100vh;
