@@ -47,3 +47,39 @@ button {
     filter: invert(1);
     
 }
+
+ .ownStyle{
+     width: 80vw;
+    
+ }
+ 
+ @media (max-width: 575.98px) {
+     .container{
+         width: 80vw;
+     }
+     .mobileContainer{
+        height: 300px;
+       
+     }
+     .rounded-circle{
+        width: 80px;
+     } 
+    
+    span{
+        width: 30px;
+    }
+     p{
+         font-size: 12px;
+     }
+     h3{
+         font-size: 15px;
+     }
+      
+  }
+  
+    
+   
+    
+       
+    
+ 
