@@ -2,14 +2,14 @@
 .aboutWrapper {
     background-image: url("/assets/img/hero/DSC_7052.jpg");
     background-size: cover;
-
+    
     /* height: 100vh; */
     color: lightgray;
     
 }
 
 .aboutInner {
-    padding: 2vw 8vw 3vw 30vw;
+    padding: 2vw 10vw 3vw 30vw;
 }
 
 .quote {
@@ -31,3 +31,12 @@ h5 {
 p {
     font-size: 0.8em;
 }
+
+@media screen and (max-width: 570px) {
+    .aboutInner {
+        padding-top: 5vw;
+        padding-left: 8vw;
+       
+        
+    }
+  }
