@@ -32,11 +32,21 @@ p {
     font-size: 0.8em;
 }
 
-@media screen and (max-width: 570px) {
+/* @media screen and (max-width: 570px) {
     .aboutInner {
         padding-top: 5vw;
         padding-left: 8vw;
        
         
     }
-  }
+  } */
+  @media (max-width: 575.98px) {
+    .aboutInner{
+        margin: 0!important;
+        padding: 0!important; 
+       padding-top:5vh!important;
+       padding-left: 1vh!important;
+       
+    } 
+   
+}
